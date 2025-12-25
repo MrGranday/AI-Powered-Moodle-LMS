@@ -187,60 +187,55 @@ This mirrors real-world **Retrieval-Augmented Generation** pipelines in a simpli
 
 ### Clone the Repository
 
-```bash
-git clone https://github.com/yourusername/ai-lms.git
-cd ai-lms
-Create Virtual Environment
-python -m venv venv
-venv\Scripts\activate
+**git clone https://github.com/yourusername/ai-lms.git**
 
-Install Dependencies
-pip install -r requirements.txt
+- cd ai-lms
+  **Create Virtual Environment**
+- python -m venv venv
+- venv\Scripts\activate
 
-Environment Variables
+**Install Dependencies**
 
-Create a .env file:
+- pip install -r requirements.txt
 
-MONGO_URI=mongodb://localhost:27017
-JWT_SECRET=your_secret_key
-OPENAI_API_KEY=your_api_key
+**Environment Variables**
 
-Run Backend Server
-uvicorn app.main:app --reload
+- Create a .env file:
 
-Frontend
+- MONGO_URI=mongodb://localhost:27017
+- JWT_SECRET=your_secret_key
+- OPENAI_API_KEY=your_api_key
 
-Open frontend/index.html in a browser.
+**Run Backend Server**
 
-Project Management Approach
+- uvicorn app.main:app --reload
 
-One-week agile-style development
+- Project Management Approach
 
-Modular backend architecture
+- One-week agile-style development
 
-Clear separation of concerns
+- Modular backend architecture
 
-Scalable design for future LMS integrations
+- Clear separation of concerns
 
-Future Enhancements
+- Scalable design for future LMS integrations
 
-Moodle API integration
+  **Future Enhancements**
 
-Vector databases (ChromaDB)
+- Moodle API integration
 
-Advanced analytics dashboards
+- Vector databases (ChromaDB)
 
-Payment system integration
+- Advanced analytics dashboards
 
-Multilingual AI support
+- Payment system integration
 
-Author
+- Multilingual AI support
 
-Osman Ghani Granday
-Full Stack & Blockchain Developer
-AI & Education Technology Enthusiast
+**Author**
 
-Email: osmangranday@gmail.com
+- Osman Ghani Granday
+- Full Stack & Blockchain Developer
+- AI & Education Technology Enthusiast
 
-Location: Islamabad, Pakistan
-```
+- Email: osmangranday@gmail.com
